@@ -1,7 +1,10 @@
 silverstripe-hiddenfields
 =========================
 
-Takes form fields you specified through $hidden_fields and hides them from the edit form.
+Takes form fields you specified through $hidden_fields and hides them from the edit form. I found if you completely 
+remove the field then the value doesn't get saved to the database and you end up with child without a parent relationship.
+
+Instead this extension replaces the field with a hiddenfield.
 
 ## Usage
 
