@@ -9,7 +9,11 @@ Instead this extension replaces the field with a hiddenfield.
 ## Usage
 
 * Extract / clone this so that the path to _config.php is SITEROOT/HiddenFieldsDataExtension/_config.php
-* Adjust _config.php if you don't want it to apply to all DataObjects
+* Attach the DataExtension to your DataObjects / Page types through the configuration system:
+
+```
+Object::add_extension("DataObject","HiddenFieldsDataExtension");
+```
 
 ## DIY Demo:
 
