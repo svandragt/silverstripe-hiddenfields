@@ -8,8 +8,8 @@ Instead this extension replaces the field with a hiddenfield.
 
 ## Usage
 
-* Extract / clone this so that the path to _config.php is SITEROOT/HiddenFieldsDataExtension/_config.php
-* Attach the DataExtension to your DataObjects / Page types through the configuration system:
+1. Install using composer `composer require "svandragt/silverstripe-hiddenfields:*"`
+2. Attach the DataExtension to your DataObjects / Page types through the configuration system:
 
 ```
 Object::add_extension("DataObject","HiddenFieldsDataExtension");
